@@ -1,0 +1,36 @@
+Function:
+Log in
+
+User story:
+As a User I want to log in to the system using my existing login and password so that I can log in into my account
+
+Acceptance criteria: 
+Scenario: Logging into the account 
+GIVEN:The user navigates through the website 
+When: the user clicks the "Log in" button
+Then: Log in form is shown 
+AND: The "Username" and "Password" fields are shown
+WHEN: the user enters his Username
+And: the user enters his Password
+Then: the user clicks log in button
+Then: the "Confirm action" window appears
+And: the user clicks "OK" button
+Then: The user has logged in
+
+Function:
+Sign up
+
+User story:
+As a user, I want to register on the site so that I can make a purchase
+
+Acceptance criteria: Scenario: Registering on the site
+GIVEN: The user navigates through the Website 
+When: the user clicks the "Sign up" button
+THEN: Sign up form appears 
+And: The "Username" and "password" fields are shown
+WHEN: the user fills in the "Username" field
+Then: the user fills in the "Password field"
+And: the user clicks the "Sign up" button
+Then: the "Confirm action" window appears
+And: the user clicks "OK" button
+Then: the user is successfully registered on the website
